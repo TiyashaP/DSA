@@ -16,3 +16,16 @@ Add/print the endColumn,update endColumn after print/add,update count
 Add/print the endRow ,update endRow after print/add,update count
 Add/print the startColumn,update startColumn after print/add,update count
 
+
+[Inplace rotate a matrix by 90 degree anticlockwise](https://www.codingninjas.com/codestudio/problems/inplace-rotate-matrix-90-degree_839734?leftPanelTab=0)
+[Solution](https://github.com/TiyashaP/DSA/blob/main/twodarray/RotateAMatrixAntiClockWise.java)
+
+[Rotation 90 degree anticlockwise](https://leetcode.com/problems/rotate-image/)
+[Solution](https://github.com/TiyashaP/DSA/blob/main/twodarray/RotateAMatrix.java)
+
+![img_1.png](img_1.png)
+Approach:
+Pick a random element from top row like 9
+Try to find how is it placed wrt offset, here offset is 2
+when we have already traversed a particular row with all offsets,reduce that particular
+row or column
