@@ -29,3 +29,8 @@ Pick a random element from top row like 9
 Try to find how is it placed wrt offset, here offset is 2
 when we have already traversed a particular row with all offsets,reduce that particular
 row or column
+
+[search-in-a-row-wise-and-column-wise-sorted-matrix](https://www.codingninjas.com/codestudio/problems/search-in-a-row-wise-and-column-wise-sorted-matrix_839811)
+Approach : Start searching from right top,
+to the left there are smaller elements,to the bottom there are bigger elements.
+[Solution](https://github.com/TiyashaP/DSA/blob/main/twodarray/SearchInARowAndColumnWiseSorted.java)
