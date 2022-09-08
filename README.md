@@ -34,3 +34,12 @@ row or column
 Approach : Start searching from right top,
 to the left there are smaller elements,to the bottom there are bigger elements.
 [Solution](https://github.com/TiyashaP/DSA/blob/main/twodarray/SearchInARowAndColumnWiseSorted.java)
+
+
+[Set matrix rows to zero](https://leetcode.com/problems/set-matrix-zeroes/)
+Approach: We need to store the row[i]=0 and column[j]=0 if matrix[i][j]=0
+we can optimise the soln by updating the 0th index of row and column ,as the status of the 
+Oth row and the 0th column can be maintained by the same index, we can keep another variable for row/column,Also 
+use that variable to update the 0th column
+[Solution ](https://github.com/TiyashaP/DSA/blob/main/twodarray/SetZeroesInMatrix.java)
+![img_2.png](img_2.png)
